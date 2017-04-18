@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ysq.smartlinkdemo">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.hiflying.smartlink.v3.SnifferSmartLinkerActivity"
+            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|navigation|orientation|screenSize|fontScale"
+            android:label="SnifferSmartLinkerActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.hiflying.smartlink.v7.MulticastSmartLinkerActivity"
+            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|navigation|orientation|screenSize|fontScale"
+            android:label="MulticastSmartLinkerActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.ysq.smartlinkdemo.SmartLinkerFragmentActivity"
+            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|navigation|orientation|screenSize|fontScale"
+            android:label="SmartLinkerFragmentActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.ysq.smartlinkdemo.SmartLink7DemoActivity"
+            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|navigation|orientation|screenSize|fontScale"
+            android:label="CustomizedActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.ysq.smartlinkdemo.SmartLink3DemoActivity"
+            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|navigation|orientation|screenSize|fontScale"
+            android:label="SmartLink3DemoActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.ysq.smartlinkdemo.CustomizedActivity"
+            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|navigation|orientation|screenSize|fontScale"
+            android:label="SmartLink7DemoActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

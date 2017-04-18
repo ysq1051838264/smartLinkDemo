@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">YSQ SmartLinkDemo</string>
+
+
+    <string name="hiflying_smartlinker_ssid">账号</string>
+    <string name="hiflying_smartlinker_password">密码</string>
+    <string name="hiflying_smartlinker_start">开始</string>
+
+    <string name="hiflying_smartlinker_waiting">请等待</string>
+    <string name="hiflying_smartlinker_no_wifi_connectivity">没有wifi</string>
+    <string name="hiflying_smartlinker_new_module_found">获取到数据</string>
+    <string name="hiflying_smartlinker_completed">配网完成</string>
+    <string name="hiflying_smartlinker_timeout">配网失败</string>
+
+
+</resources>
